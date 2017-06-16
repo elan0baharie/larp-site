@@ -1,0 +1,20 @@
+{ "members": [{
+    "imageURL": "http://www.darkbeautymag.com/wp-content/uploads/2015/05/10570420_10152232170160636_3741575880835085250_n.jpg",
+    "name": "Pink Phoenix",
+    "role": "Campaign-Master",
+    "availability": "Saturday & Sunday",
+    "preference": "Chablis & Brie"
+    }, {
+      "imageURL": "http://img10.deviantart.net/caf2/i/2012/169/6/a/larp_gear__malik_the_hunter_by_the_teaspoon_of_doom-d53y6vr.jpg",
+      "name": "Floyd Walker",
+      "role": "Campaign-Master",
+      "availability": "Sunday",
+      "preference": "Prosciutto on anything"
+    }, {
+      "imageURL": "http://img04.deviantart.net/6b25/i/2015/188/1/e/druchii_costume__larp__by_frolleinfuchs-d90azwr.jpg",
+      "name": "Pink Shermore",
+      "role": "Mage",
+      "availability": "Saturday & Friday",
+      "preference": "Pinot Noir or Gris or just wine. :)"
+    }]
+}
