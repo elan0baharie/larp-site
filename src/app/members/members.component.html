@@ -1,4 +1,13 @@
-<div *ngFor="let member of members | async">
+<select (change)="onChange($event.target.value)">
+  <option value="allMembers" selected="selected">All Members</option>
+  <option value="masterMembers">Campaign Master</option>
+  <option value="mageMembers" >Mage</option>
+  <option value="warriorMembers">Warrior</option>
+  <option value="rogueMembers">Rogue</option>
+  <option value="priestMembers">Priest</option>
+</select>
+
+<div *ngFor="let member of members | async| rolePipe: filterByMember">
   <div class="panel-body">
     <h3 (click)="goToDetailPage(member)"> <img src="{{member.imageURL}}" height="42" width="42">  Member Name: {{member.name}}</h3>
     <div *ngIf="currentRoute === '/admin'">

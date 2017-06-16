@@ -13,10 +13,16 @@ import { FirebaseListObservable } from 'angularfire2/database';
 export class MembersComponent implements OnInit {
   members: FirebaseListObservable<any[]>;
   currentRoute: string = this.router.url;
+  filterByMember: string = "allMembers";
 
   goToDetailPage(clickedMember) {
     this.router.navigate(['members', clickedMember.$key])
   };
+
+
+  onChange(optionFromMenu) {
+  this.filterByMember = optionFromMenu;
+  }
 
   constructor(private router: Router, private memberService: MemberService) { }
 
