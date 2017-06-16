@@ -18,6 +18,16 @@ export class MemberService {
     return this.database.object('members/' + memberId);
   }
 
+  deleteMember(localMemberToDelete) {
+    var projectEntryInFirebase = this.getMemberById(localMemberToDelete.$key);
+    projectEntryInFirebase.remove();
+}
+
+  updateMember(localUpdatedMember){
+    var projectEntryInFirebase = this.getMemberById(localUpdatedMember.$key);
+    projectEntryInFirebase.update({imageURL: localUpdatedMember.imageURL, name: localUpdatedMember.name, role: localUpdatedMember.role, availability: localUpdatedMember.availability, preference: localUpdatedMember.preference})
+}
+
   constructor(private database: AngularFireDatabase) {
     this.members = database.list('members');
   }

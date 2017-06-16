@@ -7,19 +7,19 @@
     <div>
       <label>Member Image URL:</label>
       <br>
-      <input #newImageURL>
+      <input [(ngModel)]="selectedMember.imageURL">
     </div>
 
     <div>
       <label>Member Name:</label>
       <br>
-      <input #newName>
+      <input [(ngModel)]="selectedMember.name">
     </div>
 
     <div>
       <label>Member Role:</label>
       <br>
-      <select #newRole>
+      <select [(ngModel)]="selectedMember.role">
         <option value="Campaign-Master">Campaign Master</option>
         <option value="Mage">Mage</option>
         <option value="Warrior">Warrior</option>
@@ -31,17 +31,16 @@
     <div>
       <label>Typical Availability:</label>
       <br>
-      <input #newAvailability>
+      <input [(ngModel)]="selectedMember.availability">
     </div>
 
     <div>
       <label>Picnic Preferenece:</label>
       <br>
-      <input #newPreference>
+      <input [(ngModel)]="selectedMember.preference">
     </div>
-    <button (click)="submitForm(newImageURL.value, newName.value, newRole.value, newAvailability.value, newPreference.value); newImageURL.value=''; newName.value=''; newAvailability.value=''; newPreference.value=''">Add</button>
+    <button (click)="beginUpdatingMember(selectedMember)">Update</button>
+    <hr>
+    <button (click)="beginDeletingMember(selectedMember)">Delete</button>
   </div>
-</div>
-<div>
-  <app-members></app-members>
 </div>

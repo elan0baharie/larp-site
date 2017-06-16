@@ -1,5 +1,10 @@
 <div *ngFor="let member of members | async">
   <div class="panel-body">
     <h3 (click)="goToDetailPage(member)"> <img src="{{member.imageURL}}" height="42" width="42">  Member Name: {{member.name}}</h3>
+    <div *ngIf="currentRoute === '/admin'">
+      <h4>Edit {{member.name}}</h4>
+      <hr>
+      <app-edit-member [selectedMember]="member"></app-edit-member>
+    </div>
   </div>
 </div>
