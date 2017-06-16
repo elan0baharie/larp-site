@@ -1,0 +1,5 @@
+<div *ngFor="let member of members | async">
+  <div class="panel-body">
+    <h3 (click)="goToDetailPage(member)"> <img src="{{member.imageURL}}" height="42" width="42">  Member Name: {{member.name}}</h3>
+  </div>
+</div>

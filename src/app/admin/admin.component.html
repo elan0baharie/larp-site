@@ -1,0 +1,44 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Add New Member to Club</h3>
+  </div>
+
+  <div class="panel-body">
+    <div>
+      <label>Member Image URL:</label>
+      <br>
+      <input #newImageURL>
+    </div>
+
+    <div>
+      <label>Member Name:</label>
+      <br>
+      <input #newName>
+    </div>
+
+    <div>
+      <label>Member Role:</label>
+      <br>
+      <select #newRole>
+        <option value="Campaign-Master">Campaign Master</option>
+        <option value="Mage">Mage</option>
+        <option value="Warrior">Warrior</option>
+        <option value="Rogue">Rogue</option>
+        <option value="Priest">Priest</option>
+      </select>
+    </div>
+
+    <div>
+      <label>Typical Availability:</label>
+      <br>
+      <input #newAvailability>
+    </div>
+
+    <div>
+      <label>Picnic Preferenece:</label>
+      <br>
+      <input #newPreference>
+    </div>
+    <button (click)="submitForm(newImageURL.value, newName.value, newRole.value, newAvailability.value, newPreference.value); newImageURL.value=''; newName.value=''; newAvailability.value=''; newPreference.value=''">Add</button>
+  </div>
+</div>
