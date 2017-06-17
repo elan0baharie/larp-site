@@ -16,5 +16,17 @@
       "role": "Mage",
       "availability": "Saturday & Friday",
       "preference": "Pinot Noir or Gris or just wine. :)"
+    }, {
+      "imageURL": "http://media-cache-ak0.pinimg.com/736x/cd/08/68/cd0868507766ae454a5ec66ee3c87263.jpg",
+      "name": "Hathmore",
+      "role": "Warrior",
+      "availability": "Saturday & Sunday",
+      "preference": "Sandwiches. I love sandwiches."
+    }, {
+      "imageURL": "https://s-media-cache-ak0.pinimg.com/736x/0b/dc/65/0bdc65597a9c08d309968840cb879b48.jpg",
+      "name": "Shinan Wilderwind",
+      "role": "Rogue",
+      "availability": "Sunday",
+      "preference": "Chocolates. White or dark. MMMMM"
     }]
 }
