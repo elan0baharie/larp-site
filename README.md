@@ -10,11 +10,14 @@ _This site is a tool for live action role players club. The site will keep track
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _git clone https://github.com/elan0baharie/larp-site_
+* _Enter into directory through cli_
+* _Run npm install_
+* _Run bower install_
+* _Create api-keys.ts in app directory_
+* _Get a firebase api-key for larp-site on firebase and put in api-keys file_
+* _Run ng s to serve_
+* _Navigate to localhost:4200 on browser_
 
 ## Plan
 
@@ -23,22 +26,25 @@ _This site is a tool for live action role players club. The site will keep track
 * _Create model for member profile_
 * _Setup service for member profile_
 * _Link firebase to app through service_
-
+* _Create welcome component splash page_
+* _Create listing component to iterate members database entry_
+* _Create solo view component to view details_
+* _Finish CRUD cycle and implement pipe by role_
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_Everything was working on upload._
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_E. Baharie email: 0elan1@gmail.com github Repository: _
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_HTML, Bootstrap, Typescript, Angular.js, Node.js_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*MIT*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2016 **_E. Baharie_**

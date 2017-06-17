@@ -1,1 +1,16 @@
-<h2>This member has id number: {{memberId}}</h2>
+<h2>This member has id number: </h2>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Member info for {{(memberToDisplay)?.name}}</h3>
+  </div>
+  <div class="panel-body">
+
+    <img src="{{(memberToDisplay)?.imageURL}}">
+
+    <hr>
+    <h4>My typical availability is: {{(memberToDisplay)?.availability}}</h4>
+    <p>My preference for the ideal picnic food is: {{(memberToDisplay)?.preference}}</p>
+
+
+  </div>
+</div>
