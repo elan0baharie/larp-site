@@ -10,7 +10,7 @@ _This site is a tool for live action role players club. The site will keep track
 
 ## Setup/Installation Requirements
 
-* _git clone https://github.com/elan0baharie/larp-site_
+* _git clone https://github.com/elan0baharie/larp-site.git_
 * _Enter into directory through cli_
 * _Run npm install_
 * _Run bower install_
@@ -37,7 +37,7 @@ _Everything was working on upload._
 
 ## Support and contact details
 
-_E. Baharie email: 0elan1@gmail.com github Repository: _
+_E. Baharie email: 0elan1@gmail.com github Repository: https://github.com/elan0baharie/larp-site.git_
 
 ## Technologies Used
 
