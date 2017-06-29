@@ -10,10 +10,11 @@ _This site is a tool for live action role players club. The site will keep track
 
 ## Setup/Installation Requirements
 
-* _git clone https://github.com/elan0baharie/larp-site.git_
+* _From command line git clone https://github.com/elan0baharie/larp-site.git_
 * _Enter into directory through cli_
 * _Run npm install_
 * _Run bower install_
+* _Run apm install atom-typescript from command line_
 * _Create api-keys.ts in app directory_
 * _Get a firebase api-key for larp-site on firebase and put in api-keys file_
 * _Run ng s to serve_
